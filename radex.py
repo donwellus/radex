@@ -27,3 +27,7 @@ f = open('./geohash-list.txt', 'r')
 hashes = f.read().split(' ')
 
 print(hashes)
+
+tree = Tree()
+for hash in hashes:
+    tree.insert(hash)
