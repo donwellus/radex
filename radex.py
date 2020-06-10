@@ -51,3 +51,5 @@ hashes = f.read().split(' ')
 tree = Tree()
 for hash in hashes:
     tree.insert(hash)
+
+print(tree.regex())
